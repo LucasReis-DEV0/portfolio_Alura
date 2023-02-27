@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
 
+
+
 :root {
     --cor-primaria: #1A120B;
     --cor-sercundaria: #f6f6f6;
@@ -20,7 +22,8 @@
 
 
 body{
-    /* height: 100vh; */
+    
+    height: 100vh;
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-sercundaria);
@@ -46,13 +49,13 @@ body{
 
 
 .apresentacao{
-    padding: 3.7% ;
+    padding: 2% ;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.apresentacao_conteudo{
+.apresentacao__conteudo{
     width: 615px;
 }
 
@@ -118,13 +121,13 @@ body{
     
 }
 .imagem__Currículo{
-    max-width: 250px;
-    margin-left: 1px;
-    top: 100px;
+    max-width: 400px;
+    margin-bottom: 100px;
 }
 
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover);
+    opacity: 1;
 }
 
 .rodape{
@@ -136,12 +139,12 @@ body{
     font-family: var(--font-secundaria);
     border:  4px solid var(--cor-terciaria);
     border-radius: 2px;
+    position: auto;
 
 }
-
-
 
 .apresentacao__conteudo__texto {
     text-decoration: none;
     color: var(--cor-terciaria);
+    font-family: var(--font-secundaria);
 }
