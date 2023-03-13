@@ -36,7 +36,8 @@ body{
 
 .cabecalho__menu__link{
     font-family: var(--font-secundaria);
-    font-weight: 600 ;
+    font-weight: 600;
+    font-size: 1.5rem;
     color: var(--cor-terciaria);
     text-decoration: none;    
 }
@@ -54,7 +55,7 @@ body{
 
 .apresentacao__conteudo__titulo{
     margin: 0%;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--font-primaria);    
 }
 
@@ -63,7 +64,7 @@ body{
 }
 
 .apresentacao__texto{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--font-secundaria);    
 }
 
@@ -79,7 +80,7 @@ body{
 .apresentacao__links__subtitulo{
     font: var(--font-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__links__link{
@@ -89,7 +90,7 @@ body{
     justify-content: center;
     gap: 16px;    
     border: 2px solid var(--cor-terciaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -107,16 +108,14 @@ body{
     top: 100px;    
 }
 
-.imagem__Currículo{
-    max-width: 400px;
-    margin-bottom: 100px;
-}
+
 
 
 
 .rodape{
     color: var(--cor-primaria);
     padding: 24px;
+    font-size: 1.5rem;
     background-color: var(--cor-terciaria);
     text-align: center;
     font-weight: 300px;
